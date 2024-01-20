@@ -1249,3 +1249,37 @@ Caused by: org.postgresql.util.PSQLException: 오류: "member" 이름의 릴레이션(rel
 2024-01-20 11:21:44,985 TRACE [http-nio-8080-exec-7] org.hibernate.type.descriptor.sql.BasicExtractor : extracted value ([pwd6_0_] : [VARCHAR]) - [$2a$10$HckdYTNqo4tm8HbQJkjsG.HNBvRgwkj/8UyPLCUjZJ.9WUCQESb1y]
 2024-01-20 11:21:45,075 TRACE [http-nio-8080-exec-7] org.hibernate.type.descriptor.sql.BasicBinder : binding parameter [1] as [TIMESTAMP] - [2024-01-20T11:21:45.073821200]
 2024-01-20 11:21:45,076 TRACE [http-nio-8080-exec-7] org.hibernate.type.descriptor.sql.BasicBinder : binding parameter [2] as [VARCHAR] - [a@naver.com]
+2024-01-20 11:40:59,880 INFO  [restartedMain] com.itac.login.LoginApplication : Starting LoginApplication using Java 11.0.16.1 on A03 with PID 13004 (D:\_kyh_juweb\login (3)\login\build\classes\java\main started by admin in D:\_kyh_juweb\login (3)\login)
+2024-01-20 11:40:59,881 INFO  [restartedMain] com.itac.login.LoginApplication : The following 1 profile is active: "local"
+2024-01-20 11:41:00,006 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-20 11:41:00,007 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-20 11:41:00,385 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-01-20 11:41:00,386 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2024-01-20 11:41:00,402 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.itac.login.entity.member.MemberRepository. If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository, org.springframework.data.elasticsearch.repository.ElasticsearchRepository.
+2024-01-20 11:41:00,403 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Elasticsearch repository interfaces.
+2024-01-20 11:41:00,405 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-01-20 11:41:00,405 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2024-01-20 11:41:00,407 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport : Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.itac.login.entity.member.MemberRepository. If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository.
+2024-01-20 11:41:00,407 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2024-01-20 11:41:00,410 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-01-20 11:41:00,411 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-20 11:41:00,424 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2024-01-20 11:41:00,757 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2024-01-20 11:41:00,763 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-01-20 11:41:00,763 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2024-01-20 11:41:00,809 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-01-20 11:41:00,809 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 802 ms
+2024-01-20 11:41:00,864 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariCP - Starting...
+2024-01-20 11:41:00,942 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariCP - Start completed.
+2024-01-20 11:41:00,963 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-20 11:41:00,987 INFO  [restartedMain] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.5.Final
+2024-01-20 11:41:01,041 INFO  [restartedMain] org.hibernate.spatial.integration.SpatialService : HHH80000001: hibernate-spatial integration enabled : true
+2024-01-20 11:41:01,056 INFO  [restartedMain] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-01-20 11:41:01,109 INFO  [restartedMain] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-01-20 11:41:01,378 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-20 11:41:01,383 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-20 11:41:01,680 INFO  [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain : Will not secure any request
+2024-01-20 11:41:01,788 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2024-01-20 11:41:02,319 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-01-20 11:41:02,332 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-20 11:41:02,338 INFO  [restartedMain] com.itac.login.LoginApplication : Started LoginApplication in 2.724 seconds (JVM running for 3.039)
